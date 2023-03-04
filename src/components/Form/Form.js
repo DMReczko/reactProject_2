@@ -1,5 +1,4 @@
 import "./Form.css";
-import "./Loader.css";
 import Input from "./Input/Input.js";
 import Btn from "./Btn/Btn.js";
 import Selection from "./Selection/Selection.js";
