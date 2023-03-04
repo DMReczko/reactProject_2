@@ -1,0 +1,8 @@
+.Calc-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Calc-form > * {
+    width: 25%;
+}

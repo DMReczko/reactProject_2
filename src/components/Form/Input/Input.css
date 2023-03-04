@@ -1,0 +1,22 @@
+.Form-input {
+    width: 40%;
+}
+
+.Form-input,
+.Form-sel {
+    padding: 3px;
+    margin: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Form-input:active {
+    border: 2px solid #e6761a;
+}
+
+/*---  Media queries  - Tablet ---*/
+@media screen and (min-width: 768px) {
+    .Form-input {
+        width: 200px;
+    }
+}
