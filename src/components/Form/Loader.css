@@ -1,18 +1,8 @@
-.calc-form {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.calc-form > * {
-    width: 25%;
-}
-
 .loaderbox {
     height: 4rem;
 }
 
-.loader {
+.loading {
     width: 2rem;
     height: 2rem;
     border: 5px solid #f7f7f7;
