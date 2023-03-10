@@ -13,17 +13,15 @@ const App = () => {
     };
 
     return (
-        <div className="App">
-            <header className="App-header">
-                <img src={Logo} className="App-logo" alt="logo" />
-                <h1 className="App-h1">Coinverter</h1>
-                <h2 className="App-h2">Przelicznik walut</h2>
+        <div className="app">
+            <header className="app-header">
+                <img src={Logo} className="app-logo" alt="logo" />
+                <h1 className="app-h1">Coinverter</h1>
+                <h2 className="app-h2">Przelicznik walut</h2>
             </header>
 
             <Form setResult={handleResult} />
             <Result result={result} />
-
-            <ul></ul>
         </div>
     );
 };

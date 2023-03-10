@@ -1,13 +1,8 @@
 import "./Btn.css";
 
-const Btn = () => {
+const Btn = ({ id }) => {
     return (
-        <input
-            type="submit"
-            value="Przelicz"
-            id="formBtn"
-            className="Form-btn"
-        />
+        <input type="submit" value="Przelicz" id={id} className="form-btn" />
     );
 };
 

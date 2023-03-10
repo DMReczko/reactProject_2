@@ -1,8 +1,8 @@
-.App {
+.app {
     text-align: center;
 }
 
-.App-header {
+.app-header {
     margin: 20px;
     display: flex;
     align-items: center;
@@ -10,19 +10,19 @@
     gap: 10px;
 }
 
-.App-logo {
+.app-logo {
     height: 100px;
     width: 100px;
     margin-bottom: 0px;
 }
 
-.App-h1 {
+.app-h1 {
     font: inherit;
     font-size: 32px;
     margin-bottom: 0px;
 }
 
-.App-h2 {
+.app-h2 {
     font: inherit;
     font-size: 22px;
     margin-bottom: 20px;

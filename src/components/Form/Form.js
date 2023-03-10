@@ -37,9 +37,9 @@ const Form = ({ setResult }) => {
                 <div className={loading ? "loader" : "hidden"}></div>
             </div>
             <form className="calc-form" onSubmit={handleOnSubmit}>
-                <Input />
-                <Selection />
-                <Btn />
+                <Input id={"formInput"} />
+                <Selection id={"formSel"} />
+                <Btn id={"formBtn"} />
             </form>
         </>
     );
