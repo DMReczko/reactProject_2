@@ -10,7 +10,7 @@ const Input = ({ getValue, id }) => {
             className="form-input"
             onSubmit={getValue}
             name="amount"
-            min="0"
+            min="0.01"
         />
     );
 };

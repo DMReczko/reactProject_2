@@ -4,10 +4,10 @@ const Result = ({ result }) => {
     return (
         <div className="result-box">
             <p>
-                to{" "}
+                to
                 <span id="result" className="result">
-                    {result}
-                </span>{" "}
+                    {` ${result} `}
+                </span>
                 PLN
             </p>
         </div>
